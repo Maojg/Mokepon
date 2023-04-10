@@ -345,6 +345,8 @@ function sePrecionoUnaTecla(event){
     }
 }
 function iniciarMapa(){
+    mapa.width = 800
+    mapa.height = 800
     intervalo = setInterval(pintarPersonaje, 50)
     
     window.addEventListener('keydown', sePrecionoUnaTecla)
